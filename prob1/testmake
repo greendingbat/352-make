@@ -1,0 +1,9 @@
+A : B
+	echo "making A"
+	touch A
+B : D
+	echo "making B"
+	touch B
+D:
+	echo "making D"
+	touch D
